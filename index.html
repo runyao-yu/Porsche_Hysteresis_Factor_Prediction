@@ -62,13 +62,13 @@
               <a href="https://www.linkedin.com/in/viviana-k-9bb603253/" target="_blank">Viviana Kleine</a>,<sup>1,2</sup>,
             </span>
             <span class="author-block">
-              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Philipp Gromotka</a>,<sup>2</sup>,
+              Philipp Gromotka</a>,<sup>2</sup>,
             </span>
             <span class="author-block">
               <a href="https://www.linkedin.com/in/thomas-rudolf-at-porsche-engineering-de/" target="_blank">Thomas Rudolf</a>,
             </span>
             <span class="author-block">
-              <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Adrian Eisenmann</a><sup>2</sup>,
+              Adrian Eisenmann</a><sup>2</sup>,
             </span>
           </div>
 
@@ -87,9 +87,9 @@
 
 
                   <div class="is-size-5 publication-authors">
-                  <span class="author-block"><sup>1</sup> Delft University of Technology</span><br>
-                  <span class="author-block"><sup>2</sup> Austrian Institute of Technology</span><br>
-                  <span class="author-block"><sup>3</sup> Porsche Engineering Group</span><br>
+                  <span class="author-block"><sup>1</sup> Delft University of Technology, Delft, The Netherlands</span><br>
+                  <span class="author-block"><sup>2</sup> Austrian Institute of Technology, Vienna, Austria</span><br>
+                  <span class="author-block"><sup>3</sup> Porsche Engineering Group, Weissach, Germany</span><br>
                   <span class="author-block">IEEE Transactions on Transportation Electrification (under review)</span>
                 </div>
 
@@ -205,7 +205,30 @@
 
 
 
-
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/MethodComparison.PNG" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Experimental results demonstrate that QGRU is the most suitable model when predictive performance is the primary concern. QXGB with F-Reg is recommended as a practical trade-off between accuracy and computation. In contrast, LQR offers minimal computational requirements but performs significantly worse in terms of AQL, making it suitable only for extremely constrained environments.
+          </h2>
+        </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/TransferLearning.PNG" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          From the generalization assessment, it is recommended to apply the transfer learning from the existing model to a new vehicle model, especially when cell chemistries and electrical specifications differ. 
+          </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
 
 
 <!-- Disclaimer -->
@@ -246,18 +269,15 @@
 <!--End BibTex citation -->
 
 
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
-        <div class="content">
-
+        <div class="content has-text-centered">
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            Source: <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a><br>
+            License: <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
           </p>
-
         </div>
       </div>
     </div>
@@ -267,7 +287,22 @@
 <!-- Statcounter tracking code -->
   
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
+<!-- Default Statcounter code for Porsche-Hysteresis-Factor
+https://runyao-yu.github.io/Porsche_Hysteresis_Factor_Prediction/ -->
+<script type="text/javascript">
+var sc_project=13160444; 
+var sc_invisible=0; 
+var sc_security="b9bbf3c0"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics Made Easy -
+Statcounter" href="https://statcounter.com/" target="_blank"><img
+class="statcounter" src="https://c.statcounter.com/13160444/0/b9bbf3c0/0/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
     <!-- End of Statcounter Code -->
 
   </body>
