@@ -1,8 +1,8 @@
-# 🚘 Porsche Hysteresis Factor Prediction – Project Page
+# 🚘 Summary Page
 
 This repository contains the source code for the academic project page:
 
-🔗 **Project Page:** [https://runyao-yu.github.io/Porsche_Hysteresis_Factor_Prediction/](https://runyao-yu.github.io/Porsche_Hysteresis_Factor_Prediction/)
+**Page:** [https://runyao-yu.github.io/Porsche_Hysteresis_Factor_Prediction/](https://runyao-yu.github.io/Porsche_Hysteresis_Factor_Prediction/)
 
 ---
 
